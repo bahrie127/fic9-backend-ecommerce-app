@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "addresses",
+  "info": {
+    "singularName": "address",
+    "pluralName": "addresses",
+    "displayName": "address",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "prov_id": {
+      "type": "string"
+    },
+    "city_id": {
+      "type": "string"
+    },
+    "subdistrict_id": {
+      "type": "string"
+    },
+    "code_pos": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "biginteger"
+    },
+    "is_default": {
+      "type": "boolean"
+    }
+  }
+}

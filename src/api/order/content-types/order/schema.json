@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "order"
+    "displayName": "order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -35,6 +36,12 @@
         "done",
         "cancel"
       ]
+    },
+    "noResi": {
+      "type": "string"
+    },
+    "buyerId": {
+      "type": "biginteger"
     }
   }
 }
